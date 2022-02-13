@@ -22,6 +22,7 @@ avec une IDE.
 type Docker)
 
 — Référence à la programmation Python −→ https ://docs.python.org/fr/3.5/tutorial/
+
 — Référence à la programmation Python avec Folium −→ https ://python-visualization.github.io/folium
 
 Mots-clés : folium, geojson, pandas geopandas, cartes Choropleth, plugins folium, informations
