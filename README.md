@@ -2,29 +2,32 @@
 
 ### Indications
 
-— L’objectif de ce projet est de procéder à la réalisation de cartes dynamque à l’aide de librai-
-ries Python telle que Folium ou similaire, distribuable via des pages web et autorisant une
-interaction avec l’utilisateur.
+— L’objectif de ce projet est de procéder à la réalisation de cartes dynamque à l’aide de librairies Python telle que Folium ou similaire, distribuable via des pages web et autorisant une interaction avec l’utilisateur.
+
 — Il s’agit dans cette évaluation de revoir les savoir-faire étudiés en cours ou montrer votre aptitude
 à mettre en œuvre des cartes selon trois directions principales : la mise en valeur d’entités ou
 d’objets géométriques géographiques à l’aide d’éléments visuels, en utilisant différents markers
 avec toolTip ; coupler ces informations à des plugins d’interactivité (widgets) ; d’afficher le
 rendu des cartes et de réaliser au moins une animation pilotable par l’utilisateur sur les thèmes
 proposés.
+
 — La gestion des données utilisées pour les exercices fait partie intégrante du travail, l’illustration
 et la documentation de la préparation des données sera évaluée de manière favorable, si de
 surcroît elle apporte un enrichissement au sujet.
+
 — Le rendu des codes prendra la forme d’un code Python que l’on aura développé préférentielle
 avec une IDE.
+
 — L’étude de la distribution de la solution via Internet sera un plus (via une conteneurisation
 type Docker)
 
 — Référence à la programmation Python −→ https ://docs.python.org/fr/3.5/tutorial/
 — Référence à la programmation Python avec Folium −→ https ://python-visualization.github.io/folium
+
 Mots-clés : folium, geojson, pandas geopandas, cartes Choropleth, plugins folium, informations
 quantitatives sur une région.
 
-### 1 Réalisation de carte interactive afin de visualiser des informations
+### 1. Réalisation de carte interactive afin de visualiser des informations
 régionales, acquisition des données et production de jeu de don-
 nées à l’aide de geopandas
 Il s’agit dans l’exercice suivant de manipuler la librairie geopandas et produire des jeux de données
@@ -54,7 +57,7 @@ avec un plugin d’interaction, un utilisateur pourra choisir de visualiser le d
 administratives, les réseaux routiers ou fluviaux, ou les villes et leur coordonnées, et de l’occu-
 pation des sols .
 
-### 2 Carte dynamique exploitant les données OpenStreetMap 
+### 2. Carte dynamique exploitant les données OpenStreetMap 
 1. Avec votre binôme sélectionner une des neuf communes du territoire de Plaine Commune de
 façon différenciée (chaque binôme traite une ville différente), et réaliser une carte interactive
 des bâtiments publics présents sur la commune (il est nécessaire pour cela constituer un jeu de
